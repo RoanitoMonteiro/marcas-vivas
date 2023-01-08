@@ -140,7 +140,7 @@
             // Default countdown
             clock.countdown('2023/01/23 09:00:00').on('update.countdown', function(event) {
                 var output = [
-                    '<div class="counter-container"><div class="counter-box first"><div class="number">%-D</div><span>Dias%!d</span></div>', //Days
+                    '<div class="counter-container"><div class="counter-box first"><div class="number">%-D</div><span>Dia%!d</span></div>', //Days
                     '<div class="counter-box"><div class="number">%H</div><span>Horas</span></div>', //Hours
                     '<div class="counter-box"><div class="number">%M</div><span>Minutos</span></div>', //Minutes
                     '<div class="counter-box last"><div class="number">%S</div><span>Segundos</span></div></div>' //Seconds
